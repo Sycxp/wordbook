@@ -1,0 +1,36 @@
+{
+    "settings": [
+        {
+            "section": "general",
+            "key": "theme",
+            "label": "界面主题",
+            "type": "combobox",
+            "options": ["浅色模式", "深色模式", "跟随系统"],
+            "default": "跟随系统"
+        },
+        {
+            "section": "general",
+            "key": "font_size",
+            "label": "字体大小",
+            "type": "input",
+            "default": "12",
+            "placeholder": "输入字体大小..."
+        },
+        {
+            "section": "network",
+            "key": "request_timeout",
+            "label": "网络请求超时阈值 (秒)",
+            "type": "input",
+            "default": "10",
+            "placeholder": "输入秒数..."
+        },
+        {
+            "section": "network",
+            "key": "request_delay",
+            "label": "网络请求最小间隔 (秒)",
+            "type": "input",
+            "default": "1",
+            "placeholder": "输入秒数..."
+        }
+    ]
+}

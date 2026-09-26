@@ -1,0 +1,121 @@
+/* resources/styles/dark.qss - 深色主题 */
+
+QMainWindow {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+QWidget {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-size: {font_size}px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+QLineEdit, QTextEdit, QComboBox {
+    background-color: #3d3d3d;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 4px;
+    color: #ffffff;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 1px solid #0078d4;
+}
+
+QPushButton {
+    background-color: #0078d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #106ebe;
+}
+
+QPushButton:disabled {
+    background-color: #555555;
+    color: #999999;
+}
+
+QTabWidget::pane {
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background-color: #2d2d2d;
+}
+
+QTabBar::tab {
+    background-color: #3d3d3d;
+    border: 1px solid #555555;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 6px 12px;
+    margin-right: 2px;
+    color: #ffffff;
+}
+
+QTabBar::tab:selected {
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+QTabBar::tab:hover:!selected {
+    background-color: #4d4d4d;
+}
+
+QGroupBox {
+    border: 1px solid #555555;
+    border-radius: 4px;
+    margin-top: 12px;
+    padding-top: 12px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    padding: 0 4px;
+}
+
+QScrollArea {
+    border: none;
+    background-color: transparent;
+}
+
+QListWidget {
+    background-color: #3d3d3d;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    outline: none;
+    color: #ffffff;
+}
+
+QListWidget::item:selected {
+    background-color: #0078d4;
+    color: #ffffff;
+}
+
+QListWidget::item:hover {
+    background-color: #4d4d4d;
+}
+
+QMessageBox {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+QMessageBox QLabel {
+    color: #ffffff;
+}
+
+QMessageBox QPushButton {
+    min-width: 60px;
+}

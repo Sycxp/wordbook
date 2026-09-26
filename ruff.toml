@@ -1,0 +1,40 @@
+# ruff.toml
+# WordBook 项目代码检查配置
+
+# 目标 Python 版本
+target-version = "py314"
+
+# 行宽限制放宽到 160 字符
+line-length = 160
+
+# 包含的目录
+include = ["*.py", "graphics/*.py", "utils/*.py", "tests/*.py"]
+
+# 排除的目录
+exclude = [".venv", ".git", "__pycache__", "build", "dist", "*.spec"]
+
+# 规则配置
+[lint]
+# 启用的规则集
+select = [
+    "E", # pycodestyle 错误
+    "W", # pycodestyle 警告
+    "F", # Pyflakes
+    "I", # isort (导入排序)
+    "N", # pep8-naming (命名规范)
+]
+
+# 忽略的规则 (放宽限制)
+ignore = [
+    "D100",    # 缺少模块文档字符串
+    "D101",    # 缺少类文档字符串
+    "D102",    # 缺少方法文档字符串
+    "D103",    # 缺少函数文档字符串
+    "W293",    # 行尾多余空白
+    "PLR0913", # 太多参数
+    "PLR2004", # 魔法数字
+]
+
+# 导入排序配置
+[lint.isort]
+known-first-party = ["graphics", "utils", "data"]
