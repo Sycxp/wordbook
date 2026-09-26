@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![PySide6](https://img.shields.io/badge/PySide6-6.5%2B-green)](https://doc.qt.io/qtforpython/)
 [![License](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)]()
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)](https://www.microsoft.com/zh-cn/windows/)
 
 WordBook 是一款面向学生的单词本工具，基于 PySide6 开发。它提供单词查询、收藏管理、随机抽查、本地检索以及数据备份与重建等功能，帮助您更高效地记忆和复习英文单词。
 
@@ -41,7 +41,7 @@ WordBook 是一款面向学生的单词本工具，基于 PySide6 开发。它�
 
 ### 方式一：下载安装包（推荐）
 
-1. 前往 [Releases](https://github.com/yourname/WordBook/releases) 页面下载最新版 `WordBook_Setup.exe`。
+1. 前往 [Releases](https://github.com/Sycxp/wordbook/releases) 页面下载最新版 `WordBook_Setup.exe`。
 2. 双击运行安装程序，按照提示完成安装。安装前会显示 GPL-3.0 许可协议，请阅读并接受。
 3. 安装完成后，桌面和开始菜单会创建快捷方式。
 
@@ -51,7 +51,7 @@ WordBook 是一款面向学生的单词本工具，基于 PySide6 开发。它�
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourname/WordBook.git
+git clone https://github.com/Sycxp/wordbook.git
 cd WordBook
 
 # 创建虚拟环境（可选）
@@ -205,4 +205,4 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ---
 
-如有问题或建议，欢迎提交 [Issue](https://github.com/yourname/WordBook/issues)。
+如有问题或建议，欢迎提交 [Issue](https://github.com/Sycxp/wordbook/issues)。
