@@ -39,6 +39,7 @@ data/wordbook.db
 .env.*
 *.pem
 *.key
+git.txt
 
 # IDE / 编辑器
 .idea/
