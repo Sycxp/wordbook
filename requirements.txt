@@ -2,7 +2,7 @@ altgraph==0.17.5
 asttokens==3.0.1
 beautifulsoup4==4.14.3
 bs4==0.0.2
-certifi==2026.2.25
+certifi==2026.10.19
 charset-normalizer==3.4.5
 colorama==0.4.6
 comm==0.2.3
